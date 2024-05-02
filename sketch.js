@@ -2,21 +2,33 @@ let bg;
 let y = 0;
 let showText = false;
 
+function preload(){
+  bg = loadImage('sing.gif');
+}
+
 function setup() {
-  bg = loadImage('images/page1_asset.png');
-  createCanvas(600, 400);
+  createCanvas(windowWidth, windowHeight);
+  let a = createA('page2.html', 'Continue...');
+  a.position(1400, 750);
 }
 
 function draw() {
   background(bg);
-  if(showText){
-    textSize(29);
-    fill('white');
-    textFont('Judson');
-    text(' First, I have to tell you about the city at that time.',     50, 290, 350, 350);
-  }
+  textSize(20);
+  fill('black');
+  textFont('Judson');
+
 }
+
   
 function mousePressed() {
-  showText = true;
+  //showText = true;
+  click(); 
+}
+
+function click(){
+    textSize(35);
+    fill('black');
+    textFont('Judson');
+    text('First, I have to tell you about the city at that time.',200, 700);
 }

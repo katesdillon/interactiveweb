@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+h1{
+    font-family: 'Jolly Lodger';
+    color: rgb(107, 3, 3);
+    font-size: 70pt;
+    text-align: center;
+    padding: 20%;
+}
+
+footer{
+   text-align: right;
+   color: black;
+   font-size: 20pt;
+   text-decoration: none;
+   position: fixed;
+   margin-left: 90%;
+}
+
+@keyframes fade-out {
+    from {
+       opacity: 1;
+    }
+    to {
+       opacity: 0;
+    }
+ }
+ .fade-out {
+  animation: fade-out 15s;
+ }
+  
