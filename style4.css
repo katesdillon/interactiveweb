@@ -4,13 +4,19 @@ body{
     background-color: black;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+    opacity: 50%;
+}
+
 footer{
     text-align: right;
     color: white;
     font-size: 20pt;
     text-decoration: none;
     position: fixed;
-    margin-left: 90%;
+    margin-left: 85%;
 }
 
 p{

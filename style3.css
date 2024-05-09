@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
 
+
 h1{
     font-family: 'Jolly Lodger';
     color: rgb(107, 3, 3);
@@ -14,7 +15,15 @@ footer{
    font-size: 20pt;
    text-decoration: none;
    position: fixed;
+   bottom: 0; 
+   padding-bottom: 3%;
    margin-left: 90%;
+}
+
+a{
+   text-decoration: none;
+   color: black;
+   opacity: 50%;
 }
 
 @keyframes fade-out {
@@ -27,5 +36,12 @@ footer{
  }
  .fade-out {
   animation: fade-out 15s;
+ }
+
+ @media screen and (max-width: 500px) {
+   h1{
+      font-size: 50pt; 
+      padding: 15%;
+   }
  }
   

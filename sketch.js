@@ -3,21 +3,27 @@ let y = 0;
 let showText = false;
 
 function preload(){
-  bg = loadImage('sing.gif');
+  bg = createImg('sing.gif');
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  bg.position(width/14, height/50);  
   let a = createA('page2.html', 'Continue...');
-  a.position(1400, 750);
+  a.position(1300, 750);
+  a.style('font-family', 'Judson'); 
+  a.style('color', 'black'); 
+  a.style('text-decoration', 'none')
+  a.style('font-size', '20pt')
+  a.style('opacity', '50%')
 }
 
 function draw() {
-  background(bg);
+ // background(bg);
   textSize(20);
   fill('black');
   textFont('Judson');
-
+  
 }
 
   
